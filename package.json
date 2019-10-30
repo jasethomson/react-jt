@@ -1,0 +1,32 @@
+{
+  "name": "react-jt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react-dom": "^16.11.0",
+    "react": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch --mode=development --devtool=source-map",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasethomson/react-jt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasethomson/react-jt/issues"
+  },
+  "homepage": "https://github.com/jasethomson/react-jt#readme"
+}
