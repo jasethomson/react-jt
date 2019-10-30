@@ -12,11 +12,12 @@
     "@babel/plugin-transform-react-jsx": "^7.3.0",
     "babel-loader": "^8.0.6",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
   },
   "scripts": {
     "build": "webpack --mode=production",
-    "watch": "webpack --watch --mode=development --devtool=source-map",
+    "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
