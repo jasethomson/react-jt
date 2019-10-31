@@ -43,22 +43,14 @@ class ValidatedInput extends React.Component {
       valid = false;
     }
 
-    console.log("valid:", valid);
     return valid;
   }
 
   handleSubmit(e) {
-    console.log(e);
     e.preventDefault();
 
     if (this.formValid(this.state)) {
-      console.log(`
-      --SUBMITTING--
-      First Name: ${this.state.firstName}
-      Last Name: ${this.state.lastName}
-      Email: ${this.state.email}
-      Password: ${this.state.password}
-      `);
+
     } else {
       this.setState({ earlySubmit: "Please correctly fill out all fields before submitting."})
     }
@@ -99,7 +91,7 @@ class ValidatedInput extends React.Component {
           : '';
         break;
     }
-    this.setState({formErrors, [name]: value}, () => console.log("state:",this.state))
+    this.setState({formErrors, [name]: value})
   }
 
   render() {
