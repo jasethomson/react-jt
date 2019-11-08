@@ -145,7 +145,7 @@ class CheckoutForm extends React.Component {
     return (
       <div>
         <div>
-          <h1>Create Account</h1>
+          <h1>Checkout</h1>
           <form onSubmit={this.handleSubmit} noValidate>
             <div className="form-group firstName col-3">
               <label htmlFor="firstName">First Name</label>

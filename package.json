@@ -7,6 +7,8 @@
     "bootstrap": "^4.3.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-strap-table": "^1.0.4",
+    "react-svg-piechart": "^2.4.1",
     "reactstrap": "^8.1.1"
   },
   "devDependencies": {
