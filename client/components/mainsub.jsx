@@ -1,4 +1,4 @@
-import React from '.react';
+import React from 'react';
 
 class MainSub extends React.Component{
   constructor(props){
@@ -10,7 +10,7 @@ class MainSub extends React.Component{
 
   render(){
     return (
-      null;
+      <div></div>
     )
   }
 }
