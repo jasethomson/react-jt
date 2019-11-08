@@ -96,6 +96,38 @@ class MainSub extends React.Component{
             </tbody>
           </Table>
         </div>
+        <div className="row">
+          <form>
+            <input
+              name="numberOfGuests"
+              className="col-3"
+              type="text"
+              placeholder="Subscription Name"
+              value={this.state.numberOfGuests}
+              onChange={this.handleInputChange} />
+            <input
+                name="numberOfGuests"
+                className="col-3"
+                type="text"
+                placeholder="Monthly Cost"
+                value={this.state.numberOfGuests}
+                onChange={this.handleInputChange} />
+            <input
+              name="numberOfGuests"
+              className="col-3 "
+              type="text"
+              placeholder="Subscribed since"
+              value={this.state.numberOfGuests}
+              onChange={this.handleInputChange} />
+            <input
+              name="numberOfGuests"
+              className="col-3 "
+              type="text"
+              placeholder="Next Payment Date"
+              value={this.state.numberOfGuests}
+              onChange={this.handleInputChange} />
+          </form>
+        </div>
       </div>
     )
   }

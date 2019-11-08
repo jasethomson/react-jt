@@ -24,9 +24,7 @@ class App extends React.Component{
             <div className="col-6">
               <PieChart />
             </div>
-
           </div>
-
         </div>
       </div>
     )
