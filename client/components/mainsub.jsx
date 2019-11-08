@@ -4,11 +4,22 @@ import {Table} from 'reactstrap';
 class MainSub extends React.Component{
   constructor(props){
     super(props);
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
     this.state = {
       placeholder: null
     }
   }
 
+
+  handleChange(){
+
+  }
+
+  handleSubmit(){
+
+  }
 
 
   render(){
@@ -97,35 +108,35 @@ class MainSub extends React.Component{
           </Table>
         </div>
         <div className="row">
-          <form>
+          <form onSubmit={this.handleSubmit}>
             <input
               name="numberOfGuests"
               className="col-3"
               type="text"
               placeholder="Subscription Name"
               value={this.state.numberOfGuests}
-              onChange={this.handleInputChange} />
+              onChange={this.handleChange} />
             <input
                 name="numberOfGuests"
                 className="col-3"
                 type="text"
                 placeholder="Monthly Cost"
                 value={this.state.numberOfGuests}
-                onChange={this.handleInputChange} />
+                onChange={this.handleChange} />
             <input
               name="numberOfGuests"
               className="col-3 "
               type="text"
               placeholder="Subscribed since"
               value={this.state.numberOfGuests}
-              onChange={this.handleInputChange} />
+              onChange={this.handleChange} />
             <input
               name="numberOfGuests"
               className="col-3 "
               type="text"
               placeholder="Next Payment Date"
               value={this.state.numberOfGuests}
-              onChange={this.handleInputChange} />
+              onChange={this.handleChange} />
           </form>
         </div>
       </div>
