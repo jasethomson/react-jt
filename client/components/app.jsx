@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './header';
 import TotalSub from './totalsub';
+import MainSub from './mainsub';
 
 class App extends React.Component{
   constructor(props){
@@ -14,6 +15,7 @@ class App extends React.Component{
       <div>
         <Header />
         <TotalSub />
+        <MainSub />
       </div>
     )
   }
