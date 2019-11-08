@@ -7,7 +7,7 @@ function TotalSub(props){
       <div className="row">
         <div className="col"></div>
         <div className="col">Monthly</div>
-        <div className="col">Year to date</div>
+        <div className="col">YTD</div>
       </div>
       <div className="row">
         <div className="col">Total Subscription Cost</div>
